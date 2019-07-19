@@ -1,0 +1,519 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    width:1140px;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    float: left;
+    padding: 3px;
+    /* position: fixed; 
+    top: 0;
+    */
+    background-color: #070707;
+}
+.logo {
+    
+    width: 20%;
+    float: left;
+}
+.logo img {
+    display: block;
+    width: 100px;
+}
+.menu {
+    width: 40%;
+    height: 100px;
+    float: left;
+}
+nav ul {
+        list-style: none;
+}
+nav ul li{
+            display: inline-block;
+            margin: 25px 20px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    
+
+}
+
+.Social-icon {
+
+    width: 40%;
+    height: 100px;
+    float: left;
+}
+.social-icon ul
+{
+    list-style: none;
+}
+.Social-icon ul li{
+    display: inline-block;
+    margin: 25px 20px; 
+}
+
+
+.fa.fa-facebook-official {
+    background-color: #ffffff00;
+    color: rgb(13, 126, 233);
+    font-size: 30px;
+    transition: 1s ease-in-out;
+    padding-right:5px;
+
+}
+.fa.fa-facebook-official:hover {
+    transform: rotate(360deg);
+}
+.fa.fa-youtube-play{
+        background-color: #ffffff00;
+        color: red;
+        font-size: 30px;
+        transition: 1s ease-in-out;
+        padding-right: 5px;
+}
+.fa.fa-youtube-play:hover {
+    transform: rotate(360deg);
+}
+.fa.fa-instagram {
+    background-color: #f60a5a;
+    color: white;
+    font-size: 30px;
+    border-radius: 13;
+    transition: 1s ease-in-out;
+    padding-right: 5px;
+}   
+.fa.fa-instagram:hover {
+    transform: rotate(360deg);
+}
+.fa.fa-twitter{
+    background-color: #ffffff00;
+        color: rgb(13, 126, 233);
+        font-size: 30px;
+        transition: 1s ease-in-out;
+        padding-right: 5px;
+}
+.fa.fa-twitter:hover {
+    transform: rotate(360deg);
+}
+
+.about-us {
+    
+    width: 100%;
+    float: left;
+    background-image: url(../img/care-check-checkup-905874.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background-container {
+    width: 660px;
+    float: left;
+    border-radius: 10px;
+    background-color: #daf4fa57;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.background-container h1 {
+
+    font-size: 4em;
+    text-align: center;
+    margin: 15px;
+}
+.btn {
+    background-color: white;
+    font-size: 2em;
+    color: black;
+    border-radius: 8px;
+    margin: 10px;
+    
+}
+.btn-two{
+    background-color: black;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.our-service {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+    padding: 30px 0px;
+}
+h1{
+    font-size:2em;
+    text-align: center;
+    margin: 15px;
+}
+
+.Order-medicine {
+    
+    width: 24%;
+    float: left;
+    border-radius: 5px;
+    margin-right: 10.5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.Order-medicine a {
+    text-decoration: none;
+    color:black;
+}
+.fa.fa-medkit {
+    background-color: black;
+    padding: 4px 6px;
+    color: #f8f1f1;
+    font-size: 100px;
+    border-radius: 10%;
+}
+
+.Book-appointment {
+    width: 24%;
+    float: left;
+    border-radius: 5px;
+    margin-right: 10.5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.Book-appointment a {
+
+    text-decoration: none;
+    color:black;
+}
+.fa.fa-user-md{
+
+    background-color: black;
+    padding: 4px 6px;
+    color: #f8f1f1;
+    font-size: 100px;
+    border-radius: 10%;
+}
+.Need-consultants {
+    width: 24%;
+    float: left;
+    border-radius: 5px;
+    margin-right: 10.5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.Need-consultants a{
+    text-decoration: none;
+    color:black;
+}
+.fa.fa-heartbeat{
+    background-color: black;
+    padding: 4px 6px;
+    color: #f8f1f1;
+    font-size: 100px;
+    border-radius: 10%;
+}
+
+
+.Ambulance-serice {
+    width: 24%;
+    float: left;
+    border-radius: 5px;
+    margin-right: 10.5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.Ambulance-serice a{
+
+    text-decoration: none;
+     color:black;
+}
+.fa.fa-ambulance{
+
+    background-color: black;
+    padding: 4px 6px;
+    color: #f8f1f1;
+    font-size: 100px;
+    border-radius: 10%;
+}
+.user{
+
+    width: 100%;
+    float: left;
+}
+
+.post-prescription {
+    width: 49.5%;
+    font-size: 2.5em;
+    float: left;
+    border-radius: 5px;
+    background-color: black;
+    margin-right: 5px;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 0px;
+    color: white;
+}
+
+.Purchase-product {
+    width: 49.5%;
+    font-size: 2.5em;
+    float: left;
+    border-radius: 5px;
+    background-color: black;
+    margin-right: 5px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+.fa.fa-file-text{
+    background-color: black;
+    padding: 4px 6px;
+    color: #f8f1f1;
+    font-size: 100px;
+    border-radius: 10%;
+}
+.fa.fa-file-text a{
+    
+    text-decoration: none;
+    color:black;
+    font-size: 1.5em;
+}
+.Blogs {
+    width: 100%;
+    float: left;
+    margin-top: 45px;
+}
+.Articles {
+    width: 49.5%;
+    font-size: 1.5em;
+    float: left;
+    border-radius: 5px;
+    background-color: #070707;
+    margin-right: 5px;
+    margin-top: 20px;
+    text-align: left;
+}
+.Articles h2{
+    color: #f8f1f1;
+    text-align: center;
+}
+.Articles ul{
+    list-style: none;
+   
+}
+.Articles ul li{
+    
+    margin: 25px 20px; 
+   
+}
+
+.Articles ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+.Top-articles{
+
+    width: 49.5%;
+    font-size: 1.5em;
+    float: left;
+    border-radius: 5px;
+    background-color: #070707;
+    margin-right: 5px;
+    margin-top: 20px;
+    text-align: left;
+}
+.Top-articles h2{
+
+    color: #f8f1f1;
+    text-align: center;
+}
+
+
+.Top-articles ul{
+    list-style: none;
+   
+}
+.Top-articles ul li{
+    
+    margin: 25px 20px; 
+   
+}
+
+.Top-articles ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+
+.medicine-store{
+
+                width: 100%;
+                float: left;
+}
+.Medicine {
+    width: 100%;
+    font-size: 1.5em;
+    float: left;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #383636;
+}
+
+.Medicine h1{
+    color: white;
+}
+.Medicine img{
+    border-radius: 5px;
+   max-width: 100%;
+    
+}
+.Medicine a{
+    text-decoration: none;
+    color: white;;
+}
+.Review {
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+}         
+.Rate{
+
+    width: 100%;
+    font-size: 1.5em;
+    float: left;
+    border-radius: 5px;
+    background-color:black;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.Rate p {
+
+    font-size: 40px;
+    color: royalblue;
+}
+.fa.fa-star{
+color: #00ff63;
+}
+.fa.fa-star-o{
+    color: #1c30c6;
+    background-color: white;
+}
+.fas.fa-star-half{
+    color: #00ff63;
+}
+
+.branches{
+    width: 100%;
+    float: left;
+    margin-top: 10px
+}
+.container-two {
+    width: 100%;
+    float: left;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+.company-A {
+    font-size: 2em;
+    width: 18%;
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+}
+.company-A img{
+    display: block;
+    max-width: 100%;
+}
+.company-B{
+
+    font-size: 2em;
+    width: 18%;
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+}
+.company-B img{
+    display: block;
+    max-width: 100%;
+}
+.company-C {
+    font-size: 2em;
+    width: 18%;
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+}
+.company-C img{
+    display: block;
+    max-width: 100%;
+
+}
+.company-D {
+    font-size: 2em;
+    width: 18%;
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+}
+.company-D img{
+    display: block;
+    max-width: 100%;
+}
+
+.company-E {
+    font-size: 2em;
+    /* width: 18%; */
+    float: left;
+    text-align: center;
+    margin-left: 32px;
+}
+.company-E img{
+    display: block;
+    max-width: 100%;
+}
+
+
+.container-three {
+    float: left;
+    width: 100%;
+   /* margin-top: 15px;*/
+}
+.footer{
+    width: 100%;
+    float: left;
+    margin-top: 100px;
+
+}
+.footer-one {
+    width: 50%;
+    float: left;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+.footer-two {
+    width: 50%;
+    float: left;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    font-size: 20px;
+}
